@@ -14,6 +14,9 @@ These are common Git commands used in various situations:
 * add       Add file contents to the index
 * mv        Move or rename a file, a directory, or a symlink
 * restore   Restore working tree files
+
+>  revert the changes of commit <id> (by creating a new commit)
+
 * rm        Remove files from the working tree and from the index
 
 ### examine the history and state (see also: git help revisions)
@@ -32,6 +35,9 @@ These are common Git commands used in various situations:
 * merge     Join two or more development histories together
 * rebase    Reapply commits on top of another base tip
 * reset     Reset current HEAD to the specified state
+
+> Undo commit(s) up to commit <id> by deleting commits
+
 * switch    Switch branches
 * tag       Create, list, delete or verify a tag object signed with GPG
 
